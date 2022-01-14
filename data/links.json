@@ -1,5 +1,13 @@
 [
     {
+        "url": "https://www.loyunet.cn",
+        "avatar": "https://www.loyunet.cn/assets/images/logo.jpg",
+        "name": "天翔TNXG",
+        "blog": "洛圄网络",
+        "desc": "一个意外，一件奇遇",
+        "color": "#66ccff"
+    },
+    {
         "注释": "1.交换友链时请确保在示范站点上添加新的站点",
         "注释": "2.Github Issues和该页面评论区不审批友链申请",
         "注释": "3.请勿随意删除他人的站点",
@@ -7,17 +15,8 @@
         "注释": "5.审批通过的站点不会轻易删除，包括您的站点长时间无法访问",
         "注释": "6.若站点长时间无法访问时，我们会在您的友链下方补充archive",
         "注释": "7.不存在政治敏感问题及违法内容。没有过多的广告、无恶意软件、脚本。且转载文章须注明出处。",
-        "注释": "8.事例color是您简介的颜色"
-    },
-    {
-        "url": "https://www.loyunet.cn",
-        "avatar": "https://www.loyunet.cn/assets/images/logo.jpg",
-        "name": "天翔TNXG",
-        "blog": "洛圄网络",
-        "desc": "一个以外，一件奇遇",
-        "color": "#66ccff"
-    },
-    {
+        "注释": "8.事例color是您简介的颜色",
+        "注释": "以下是事例",
         "url": "https://www.example.com/",
         "avatar": "https://www.example.com/logo.png",
         "name": "站长名称",
