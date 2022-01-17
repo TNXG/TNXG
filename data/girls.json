@@ -3,24 +3,30 @@
         "name": "凯尔希",
         "avatar": "https://i0.hdslb.com/bfs/album/5809a7ebac4458625f385985ec037c4934987835.png",
         "from": "明日方舟",
-        "url": "https://zh.moegirl.org/明日方舟:凯尔希"
+        "url": "https://zh.moegirl.org.cn/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F:%E5%87%AF%E5%B0%94%E5%B8%8C"
     },
     {
         "name": "阿米娅",
         "avatar": "https://i0.hdslb.com/bfs/album/0ce772e884f96c9882f6343ad96d61052d2bd3fa.png",
         "from": "明日方舟",
-        "url": "https://zh.moegirl.org/明日方舟:阿米娅"
+        "url": "https://zh.moegirl.org.cn/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F:%E9%98%BF%E7%B1%B3%E5%A8%85"
     },
     {
         "name": "W",
         "avatar": "https://i0.hdslb.com/bfs/album/1972c0c8aa6401f096d9b259c427ff4c646144e9.png",
         "from": "明日方舟",
-        "url": "https://zh.moegirl.org/明日方舟:W"
+        "url": "https://zh.moegirl.org.cn/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F:W"
     },
     {
         "name": "洛天依",
         "from": "VOCALOID",
         "avatar": "https://i0.hdslb.com/bfs/album/2439cd0ecf55e69f1a08fb01d659b0da34d779ac.png",
-        "url": "https://zh.moegirl.org/洛天依"
+        "url": "https://zh.moegirl.org.cn/%E6%B4%9B%E5%A4%A9%E4%BE%9D"
+    },
+    {
+        "name": "可可丽特",
+        "from": "幻塔",
+        "avatar": "https://i0.hdslb.com/bfs/album/bf648ee8d8da9ecc1fce9310b45a3fbb52d79123.jpg",
+        "url": "https://baike.baidu.com/item/%E5%8F%AF%E5%8F%AF%E4%B8%BD%E7%89%B9"
     }
 ]
