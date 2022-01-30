@@ -14,5 +14,13 @@
         "blog": "云游科社",
         "desc": "云游科社致力于游戏、娱乐、技术、生活、GHS......各种领域，在我们这里，无论你是IT男、发烧友、基安DALAO、游戏迷、干好事大师......一定都能在这里找到些许共鸣。",
         "color": "#ff22ee"
+    },
+    {
+        "url": "https://blog.cyfan.top/",
+        "avatar": "https://npm.elemecdn.com/chenyfan-cdn@2.0.0/img/avatar.png",
+        "name": "ChenYFan",
+        "blog": "ChenYFanのBlog",
+        "desc": "一个在互联网角落挣扎的小小博客，很小很小",
+        "color": "#00ffee"
     }
 ]
