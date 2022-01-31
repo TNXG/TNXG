@@ -8,7 +8,7 @@
 --12:23:32--  profile://TNXG/README.md
            => `README.md'
 Resolving TNXG... -1.-1.-1.-1, ::-1
-Connecting to ChenYFan|-1.-1.-1.-1|:65536... connected.
+Connecting to RHODESISLAND.INC:443 ... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 200 [text/html]
 
