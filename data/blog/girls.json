@@ -19,14 +19,74 @@
     },
     {
         "name": "洛天依",
-        "from": "VOCALOID",
         "avatar": "https://i0.hdslb.com/bfs/album/2439cd0ecf55e69f1a08fb01d659b0da34d779ac.png",
+        "from": "VOCALOID",
         "url": "https://zh.moegirl.org.cn/%E6%B4%9B%E5%A4%A9%E4%BE%9D"
     },
     {
         "name": "可可丽特",
-        "from": "幻塔",
         "avatar": "https://i0.hdslb.com/bfs/album/bf648ee8d8da9ecc1fce9310b45a3fbb52d79123.jpg",
+        "from": "幻塔",
         "url": "https://baike.baidu.com/item/%E5%8F%AF%E5%8F%AF%E4%B8%BD%E7%89%B9"
+    },
+    {
+        "name": "HK416",
+        "avatar": "https://i0.hdslb.com/bfs/album/bbade4793ab4a06801c4a4c03fc874278e278980.png",
+        "from": "少女前线",
+        "url": "https://zh.moegirl.org.cn/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF:HK416"
+    },
+    {
+        "name": "八重神子",
+        "avatar": "https://i0.hdslb.com/bfs/album/8460b6ccb62e57b35983590cd9898db5ff300dd5.png",
+        "from": "原神",
+        "url": "https://zh.moegirl.org.cn/%E5%85%AB%E9%87%8D%E7%A5%9E%E5%AD%90"
+    },
+    {
+        "name": "真",
+        "avatar": "https://i0.hdslb.com/bfs/album/eb2da9f7100a9cfc5d73842c1bfe073567859204.png",
+        "from": "原神",
+        "url": "https://zh.moegirl.org.cn/%E9%9B%B7%E7%94%B5%E7%9C%9F"
+    },
+    {
+        "name": "令",
+        "avatar": "https://i0.hdslb.com/bfs/album/2d485c9dd0c9348cdd1b46977640e37e0cdc2373.png",
+        "from": "明日方舟",
+        "url": "https://zh.moegirl.org.cn/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F:%E4%BB%A4"
+    },
+    {
+        "name": "史尔特尔",
+        "avatar": "https://i0.hdslb.com/bfs/album/ef5ff4b4caafeb3bbd3ab81ece57f2775bed03f2.png",
+        "from": "明日方舟",
+        "url": "https://zh.moegirl.org.cn/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F:%E5%8F%B2%E5%B0%94%E7%89%B9%E5%B0%94"
+    },
+    {
+        "name": "霜星",
+        "avatar": "https://i0.hdslb.com/bfs/album/5f6c6c6a91d35966a6b5daec06dd09b69adb422d.png",
+        "from": "明日方舟",
+        "url": "https://zh.moegirl.org.cn/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F:%E9%9C%9C%E6%98%9F"
+    },
+    {
+        "name": "夕",
+        "avatar": "https://i0.hdslb.com/bfs/album/c08a8432760214137e900e492e8970a57763bcba.png",
+        "from": "明日方舟",
+        "url": "https://zh.moegirl.org.cn/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F:%E5%A4%95"
+    },
+    {
+        "name": "宵宫",
+        "avatar": "https://i0.hdslb.com/bfs/album/3c8068459bc119e97294173ee570e204e87d3cbc.png",
+        "from": "原神",
+        "url": "https://zh.moegirl.org.cn/%E5%AE%B5%E5%AE%AB"
+    },
+    {
+        "name": "云堇",
+        "avatar": "https://i0.hdslb.com/bfs/album/05750f6c2831a42d14ffefb9b5f5f944d972852b.png",
+        "from": "原神",
+        "url": "https://zh.moegirl.org.cn/%E4%BA%91%E5%A0%87"
+    },
+    {
+        "name": "浊心斯卡蒂",
+        "avatar": "https://i0.hdslb.com/bfs/album/bc2edd1ba1cbf36f607d3edcb61568b2af333798.png",
+        "from": "明日方舟",
+        "url": "https://zh.moegirl.org.cn/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F:%E6%B5%8A%E5%BF%83%E6%96%AF%E5%8D%A1%E8%92%82"
     }
 ]
