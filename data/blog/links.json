@@ -16,11 +16,11 @@
         "color": "#ff22ee"
     },
     {
-        "url": "https://blog.cyfan.top/",
-        "avatar": "https://npm.elemecdn.com/chenyfan-cdn@2.0.0/img/avatar.png",
-        "name": "ChenYFan",
-        "blog": "ChenYFanのBlog",
-        "desc": "一个在互联网角落挣扎的小小博客，很小很小",
-        "color": "#00ffee"
+        "url": "https://redish101.github.io/",
+        "avatar": "https://gitee.com/Redish101/img/raw/master/img/avatar.png",
+        "name": "redish101",
+        "blog": "Redish101博客",
+        "desc": "路漫漫而修远兮，吾将上下而求索",
+        "color": "#a7e734"
     }
 ]
