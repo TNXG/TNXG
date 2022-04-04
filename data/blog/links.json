@@ -1,7 +1,7 @@
 [
     {
         "url": "https://www.loyunet.cn",
-        "avatar": "https://www.loyunet.cn/assets/images/logo.jpg",
+        "avatar": "https://assets.prts.top/images/friends_avatar/www.loyunet.cn.jpg",
         "name": "天翔TNXG",
         "blog": "洛圄网络",
         "desc": "一个意外，一件奇遇",
@@ -9,7 +9,7 @@
     },
     {
         "url": "https://www.cwtc.xyz",
-        "avatar": "https://pic.downk.cc/item/5fb0aff7903d241383473af5.png",
+        "avatar": "https://assets.prts.top/images/friends_avatar/www.cwtc.xyz.png",
         "name": "云游科社广大成员",
         "blog": "云游科社",
         "desc": "云游科社致力于游戏、娱乐、技术、生活、GHS......各种领域，在我们这里，无论你是IT男、发烧友、基安DALAO、游戏迷、干好事大师......一定都能在这里找到些许共鸣。",
@@ -17,10 +17,18 @@
     },
     {
         "url": "https://redish101.github.io/",
-        "avatar": "https://gitee.com/Redish101/img/raw/master/img/avatar.png",
+        "avatar": "https://assets.prts.top/images/friends_avatar/redish101.github.io.webp",
         "name": "redish101",
         "blog": "Redish101博客",
         "desc": "路漫漫而修远兮，吾将上下而求索",
         "color": "#a7e734"
+    },
+    {
+        "url": "http://zacrelnet.xyz/",
+        "avatar": "https://assets.prts.top/images/friends_avatar/zacrelnet.xyz.jpg",
+        "name": "零谦",
+        "blog": "零谦的博客",
+        "desc": "分享资源但是大部分是水帖",
+        "color": "#e79a21"
     }
 ]
