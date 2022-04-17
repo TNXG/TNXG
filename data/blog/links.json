@@ -1,7 +1,7 @@
 [
     {
         "url": "https://www.loyunet.cn",
-        "avatar": "https://assets.prts.top/images/friends_avatar/www.loyunet.cn.jpg",
+        "avatar": "https://npm.elemecdn.com/tnxg-oss@latest/images/friends_avatar/www.loyunet.cn.jpg",
         "name": "天翔TNXG",
         "blog": "洛圄网络",
         "desc": "一个意外，一件奇遇",
@@ -9,7 +9,7 @@
     },
     {
         "url": "https://redish101.github.io/",
-        "avatar": "https://assets.prts.top/images/friends_avatar/redish101.github.io.webp",
+        "avatar": "https://npm.elemecdn.com/tnxg-oss@latest/images/friends_avatar/redish101.github.io.webp",
         "name": "redish101",
         "blog": "Redish101博客",
         "desc": "路漫漫而修远兮，吾将上下而求索",
@@ -17,10 +17,18 @@
     },
     {
         "url": "https://zacrelnet.xyz/",
-        "avatar": "https://assets.prts.top/images/friends_avatar/zacrelnet.xyz.jpg",
+        "avatar": "https://npm.elemecdn.com/tnxg-oss@latest/images/friends_avatar/zacrelnet.xyz.jpg",
         "name": "零谦",
         "blog": "零谦的博客",
         "desc": "分享资源但是大部分是水帖",
         "color": "#e79a21"
+    },
+    {
+        "url": "https://www.wututu.top/",
+        "avatar": "https://npm.elemecdn.com/tnxg-oss@latest/images/friends_avatar/www.wututu.top.png",
+        "name": "wututu",
+        "blog": "wututu-blog",
+        "desc": "wututu的博客,各种干货分享的博客",
+        "color": "#95c7e0"
     }
 ]
