@@ -1,45 +1,22 @@
-# 欢迎访问我的 GitHub 主页~
+# Welcome to my github page~
+![](https://prts.top/api/img/wallpaper/?type=cdn)
+
 ------
 
-> wget -O MyProfile profile://TNXG/README.md
+What languages do I use(我比较常用那种编程语言):
 
-```
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=TNXG)
 
---12:23:32--  profile://TNXG/README.md
-           => `README.md'
-Resolving TNXG... -1.-1.-1.-1, ::-1
-Connecting to RHODESISLAND.INC:443 ... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 200 [text/html]
+Total number of visits to some of our websites so far(截止目前我们一些网站的总访问量):
 
-98%[============================================================>  ] 114514            200K/s   in 0s 【Chinese】
+![](https://count.getloli.com/get/@TNXG?theme=rule34)
 
-42%[=======================>                                       ] 1223              512K/s   in 0s 【EPL】
+Some game stats about my GenshinImpact(关于我原神的一些游戏数据):
 
-32%[===============>                                               ] 712               150K/s   in 0s 【HTML\CSS】
+![](https://genshin-card.getloli.com/detail/5-7,29,30,38,42,43-49,51-54,56,57,59/240961927.png)
 
-12%[====>                                                          ] 412               20K/s   in 0s  【PHP】
-
-2%[===>                                                            ] 611               5K/s   in 0s  【Javascript】
-
-?%[???????????????????????????????????????????????????????????????>] ??                ??K/s   in ??s 【???】
+(想要对我们说些什么)
+[![](https://urlscan.io/liveshot/?url=https://tnxg.loyunet.cn/board/)](https://tnxg.loyunet.cn/board/)
 
 
-24:59:61 (69.82827982 MB/s) - `README.md' saved [81/81]
-
-The Protect Key is:10010010i8laat38gjk000101010101001b12d1501lfff00101110100016sm3coq1ofy010100010000100111010501nahxjymo0000000
-
-```
-
-## Friends
-
-- [云游科社](https://www.cwtc.xyz/)
-- [洛圄网络](https://www.loyunet.cn/)
-- [云游论坛](https://www.yunyoult.cn/)
-- [天翔的博客](https://tnxg.loyunet.cn/)
-
-`还有很多空位，欢迎Pr`
-
-## Other
-- 欢迎通过 [Issues](https://github.com/TNXG/TNXG/issues/new) 给我留言。
-- 邮箱私聊 `mcminecraftmc@126.com`
+[![](https://img.shields.io/badge/Windows-10-2376bc?style=flat-square&logo=windows)](https://www.microsoft.com/windows/get-windows-10/) [![](https://img.shields.io/badge/Centos-9-262577?style=flat-square&logo=centos)](https://www.centos.org/) [![](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blue?style=flat-square&logo=visual-studio-code)](https://code.visualstudio.com/) [![](https://img.shields.io/badge/Android-9-00E886?style=flat-square&logo=Android)](https://android.com/) [![](https://img.shields.io/badge/Browser-Microsoft%20Edge-0078D7?style=flat-square&logo=Microsoft-Edge)](https://www.microsoft.com/zh-cn/edge/) [![](https://img.shields.io/badge/Video-Bilibili-00A1D6?style=flat-square&logo=Bilibili)](https://www.bilibili.com/) [![](https://img.shields.io/badge/Language-PHP-777BB4?style=flat-square&logo=PHP)](https://www.php.net/) [![](https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python)](https://www.python.org/) [![](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=JavaScript)](https://developer.mozilla.org/zh-CN/docs/learn/JavaScript) [![](https://img.shields.io/badge/Language-HTML5-E34F26?style=flat-square&logo=HTML5)](https://www.w3.org/) [![](https://img.shields.io/badge/CDN-CloudFlare-F38020?style=flat-square&logo=CloudFlare)](https://www.cloudflare.com) [![](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=NGINX)](https://nginx.org/) [![](https://img.shields.io/badge/ThinkPad-EE2624?style=flat-square&logo=ThinkPad)](https://www.lenovo.com.cn/)
