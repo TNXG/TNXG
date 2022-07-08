@@ -8,7 +8,7 @@
         "color": "#66ccff"
     },
     {
-        "url": "https://blog.redish101.tk/",
+        "url": "https://blog.redish101.top/",
         "avatar": "https://npm.elemecdn.com/tnxg-oss@latest/images/friends_avatar/redish101.github.io.webp",
         "name": "redish101",
         "blog": "Redish101博客",
@@ -19,7 +19,7 @@
         "url": "https://zacrelnet.xyz/",
         "avatar": "https://npm.elemecdn.com/tnxg-oss@latest/images/friends_avatar/zacrelnet.xyz.jpg",
         "name": "零谦",
-        "blog": "零谦的博客",
+        "blog": "零谦的博客[Archive]",
         "desc": "分享资源但是大部分是水帖",
         "color": "#e79a21"
     },
@@ -30,5 +30,13 @@
         "blog": "wututu-blog",
         "desc": "wututu的博客,各种干货分享的博客",
         "color": "#95c7e0"
+    },
+    {
+        "url": "https://blog.utermux.dev/",
+        "avatar": "https://npm.elemecdn.com/tnxg-oss@latest/images/friends_avatar/blog.utermux.dev.jpg",
+        "name": "2096779623",
+        "blog": "Utermux博客",
+        "desc": "2096779623的个人博客",
+        "color": "#e79a21"
     }
 ]
