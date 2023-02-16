@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: JetBrainsMono;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 5px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(194, 202, 204);
+    border-radius: 2px;
+    transition: .2s;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 100%;
+    padding: 25px;
+    padding-left: 35px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    word-break: break-all;
+    font-family: 'Noto Sans SC', sans-serif;
+    margin-bottom: 30px;
+}
+
+.mainContent {
+    padding-bottom: 50px;
+}
+
+.pg2main {
+    max-width: 700px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%)
+}
+
+.sPage {
+    background-color: #f2f5f8;
+    padding: 30px 0;
+}
+
+code {
+    padding: 2px 6px;
+    color: #c7254e;
+    background-color: #f7f7f9;
+    border-radius: 2px;
+    font-family: Consolas, Courier, 'Courier New', monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    padding-bottom: 0.8em;
+}
+
+i {
+    display: block;
+    font-size: 1.5em;
+    padding-right: 0.8em;
+}
+
+i>span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ct {
+    font-family: 'Noto Sans SC', sans-serif;
+    padding: 1.15rem 1.8rem;
+}
+
+.ct p {
+    position: relative;
+    padding-left: 3px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.ct a {
+    color: #66ccff;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    vertical-align: top;
+    outline: 0;
+}
+
+.ct a::before {
+    position: absolute;
+    top: auto;
+    bottom: 1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #66ccff;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    content: ' ';
+}
+
+.mdui-typo a:focus::before,
+.mdui-typo a:hover::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.pg2main .card-title h2 {
+    margin-bottom: 0;
+}
+
+.pg2main .card-title span {
+    opacity: 0.75;
+    font-size: 14px;
+}
+
+.pg2main .card-title {
+    margin-bottom: 20px;
+}
+
+.pg2main .list a {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+}
+
+.pg2main .list .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 32px;
+    padding: 0 16px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: background-color .3s cubic-bezier(.4, 0, .2, 1);
+    transition: background-color .3s cubic-bezier(.4, 0, .2, 1);
+}
+
+.contact {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    font-size: 2em;
+
+}
+
+.contact a {
+    color: #696767;
+}
+
+.contact a:hover {
+    color: #66ccff;
+}
+
+.pg2main .list .item:hover {
+    background-color: #f2f5f8;
+}
+
+.loading {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://api.prts.top/v1/img/wallpaper/?type=cdn");
+    filter: blur(2.5px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -100
+}
+
+body {
+    position: fixed;
+    background-repeat: no-repeat;
+}
+
+.donate {
+    margin: 0 auto;
+    text-align: center;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/assets/font/JetBrainsMono.woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.tnxg_c1 {
+    font-size: 20px;
+}
+
+.tnxg_c2 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 1rem;
+    z-index: 9;
+    animation: float 2s ease-in-out infinite;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 100%;
+    color: #696767;
+    float: left;
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #66ccff;
+}
+
+a:hover {
+    color: orange;
+}
