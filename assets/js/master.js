@@ -1,13 +1,13 @@
 const getRecentPosts = async () => {
-    let postReq = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://blog.tnxg.top/atom.xml");
+    let postReq = await fetch("https://api.prts.top/v1/xml2json/?xml=https://blog.tnxg.top/atom.xml");
     let res = await postReq.json();
-    var data = res.items;
-    document.getElementById("p-message").innerHTML = `<p>截止 ${data[0].pubDate.replace(/\s.*/, "")} <b>天翔TNXGの空间站</b>上总计发布了 ${data.length + 1} 篇文章，当前显示的是最新发布的 10 篇文章。</p>`
+    var data = res.feed;
+    document.getElementById("p-message").innerHTML = `<p>截止 ${isoTimeTo24(data.updated)}(博客文章最后修改时间) <b>天翔TNXGの空间站</b>上总计发布了 ${data.entry.length + 1} 篇文章，当前显示的是最新发布的 10 篇文章。</p>`
     var rtdt = [];
     for (let i = 0; i <= 9; i++) {
         rtdt.push({
-            title: data[i].title,
-            link: data[i].link + "?ref=homepage",
+            title: data.entry[i].title,
+            link: data.entry[i].link.href + "?ref=homepage",
         });
     }
     return rtdt;
@@ -15,7 +15,6 @@ const getRecentPosts = async () => {
 const printPosts = (data, dom) => {
     document.getElementById("p-load").remove();
     var container = dom;
-    console.log(data);
     for (let i = 0; i <= data.length - 1; i++) {
         console.log(data[i])
         var element = document.createElement('div');
@@ -29,6 +28,17 @@ setTimeout(async () => {
     let data = await getRecentPosts();
     printPosts(data, document.getElementById("recentposts"));
 }, 1);
+
+// iso时间转换为24小时制
+function isoTimeTo24(isoTime) {
+    date = new Date(isoTime);
+    Y = date.getFullYear() + '-';
+    M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+    D = date.getDate().toString().padStart(2, '0') + '&nbsp';
+    h = (date.getHours() < 10 ? '0' + date.getHours() : date.getHours()) + ':';
+    m = (date.getMinutes() + 1 < 10 ? '0' + (date.getMinutes() + 1) : date.getMinutes() + 1);
+    return (Y + M + D + h + m);
+}
 
 function render(text, devL, devW, sp) {
     if (sp) {
