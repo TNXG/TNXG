@@ -2,7 +2,7 @@ const getRecentPosts = async () => {
     let postReq = await fetch("https://api.prts.top/v1/xml2json/?xml=https://blog.tnxg.top/atom.xml");
     let res = await postReq.json();
     var data = res.feed;
-    document.getElementById("p-message").innerHTML = `<p>截止 ${isoTimeTo24(data.updated)}(博客文章最后修改时间) <b>天翔TNXGの空间站</b>上总计发布了 ${data.entry.length + 1} 篇文章，当前显示的是最新发布的 10 篇文章。</p>`
+    document.getElementById("p-message").innerHTML = `<p>截止 ${parsetime(data.updated)}(博客文章最后修改时间) <b>天翔TNXGの空间站</b>上总计发布了 ${data.entry.length + 1} 篇文章，当前显示的是最新发布的 10 篇文章。</p>`
     var rtdt = [];
     for (let i = 0; i <= 9; i++) {
         rtdt.push({
@@ -24,19 +24,63 @@ const printPosts = (data, dom) => {
     }
 }
 
+// 定义一个函数，用来获取最新的时间线数据
+const getRecentbangumi = async () => {
+    // 使用 fetch API 异步地从 API 接口获取 JSON 数据
+    let timelineReq = await fetch("https://api.prts.top/v1/xml2json/?xml=https://bgm.tv/feed/user/tnxg/timeline");
+    let res = await timelineReq.json();
+    var data = res.rss.channel.item;
+    console.log(data)
+    // 提取出最新的 10 条时间线的内容和链接，并存储在一个数组中
+    var rtdt = [];
+    for (let i = 0; i <= 9; i++) {
+        // 限制长度为20个字符，多出来的用[...]代替
+        if (data[i].title.length > 20) {
+            data[i].title = data[i].title.substring(0, 35) + "[...]";
+            // 将多个空格替换为一个空格
+            data[i].title = data[i].title.replace(/\s+/g, " ");
+        }
+        rtdt.push({
+            content: data[i].title,
+            link: data[i].guid.text,
+            time: parsetime(data[i].pubDate),
+        });
+    }
+    // 返回这个数组
+    return rtdt;
+}
+
+// 定义一个函数，用来显示时间线数据
+const printbangumi = (data, dom) => {
+    document.getElementById("bangumi-load").remove();
+    // 获取要显示时间线的网页元素
+    var container = dom;
+    // 遍历数组中的每个对象
+    for (let i = 0; i <= data.length - 1; i++) {
+        // 创建一个 div 元素，其中包含一个指向时间线链接的 a 元素
+        var element = document.createElement('div');
+        element.classList = "item";
+        element.innerHTML = `<a target="_blank" href="${data[i].link}">${data[i].content}</a><p class="bangumi_right">${data[i].time}</p>`
+        // 将 div 元素添加到网页元素中
+        container.appendChild(element);
+    }
+}
+
 setTimeout(async () => {
-    let data = await getRecentPosts();
-    printPosts(data, document.getElementById("recentposts"));
+    let Postsdata = await getRecentPosts();
+    printPosts(Postsdata, document.getElementById("recentposts"));
+    let bangumidata = await getRecentbangumi();
+    printbangumi(bangumidata, document.getElementById("recentbangumi"));
 }, 1);
 
 // iso时间转换为24小时制
-function isoTimeTo24(isoTime) {
-    date = new Date(isoTime);
+function parsetime(Time) {
+    date = new Date(Time);
     Y = date.getFullYear() + '-';
     M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
     D = date.getDate().toString().padStart(2, '0') + '&nbsp';
     h = (date.getHours() < 10 ? '0' + date.getHours() : date.getHours()) + ':';
-    m = (date.getMinutes() + 1 < 10 ? '0' + (date.getMinutes() + 1) : date.getMinutes() + 1);
+    m = (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes());
     return (Y + M + D + h + m);
 }
 

@@ -138,6 +138,13 @@ i>span {
     transform: scaleX(1);
 }
 
+.bangumi_right {
+    float: right;
+    font-size: 5px !important;
+    /* 文字单排 */
+    white-space: nowrap;
+}
+
 .pg2main .card-title h2 {
     margin-bottom: 0;
 }
