@@ -50,17 +50,6 @@ jobs:
           plugin_rss: yes
           plugin_rss_limit: 4
           plugin_rss_source: https://tnxg.top/feed
-          plugin_screenshot: yes
-          plugin_screenshot_background: yes
-          plugin_screenshot_mode: image
-          plugin_screenshot_selector: body
-          plugin_screenshot_title: TNXG's Blog
-          plugin_screenshot_url: https://tnxg.top/feed
-          plugin_screenshot_viewport: {
-  "width": 1280,
-  "height": 1280
-}
-
           plugin_steam: yes
           plugin_steam_achievements_limit: 2
           plugin_steam_games_limit: 3
