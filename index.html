@@ -1,115 +1,13 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>天翔TNXGの自留地</title>
-    <link rel="stylesheet" href="https://npm.elemecdn.com/remixicon@2.5.0/fonts/remixicon.css">
-    <link rel="icon" href="https://tnxg.loyunet.cn/favicon.png">
-    <link rel="stylesheet" href="/assets/css/master.css">
-</head>
-
-<body>
-    <div class="bg"></div>
-    <div class="container">
-        <div class="mainContent">
-            <div class="content">
-                <span id="content"><noscript>TiaNXianG丨天翔TNXG</noscript></span>
-                <p class="tnxg_c1"></p>
-                <div class="tnxg_c2">
-                    <i class="ri-arrow-down-s-line"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="sPage">
-        <div class="pg2main ct">
-            <h2>关于我</h2>
-            <p>
-                你好！很高兴能够以<b>80亿分之一</b>的概率遇见你<br>
-                我是一个来自<b>中国美丽大西北</b>的学生<br>
-                <b>爱好计算机</b>，会去自学自己感兴趣的一切东西<br>
-                想使用互联网表达自己的一切情感<br>
-                支持开源，热爱开源，拥护开源<br>
-                正在学习<b>Python</b>、<b>Golang</b>、<b>JavaScript</b>等语言，做一个轻量程序开发者<br>
-                <b>PHP</b>已经摸了（bushi<br>
-                <b>非职业同人爱好写手</b>，记录一些一时间颅内高潮的新奇想法<br>
-                是一个<b>热爱着ACG文化</b>的悲弱青年，因为热爱所以奉献<br>
-                我这类于<b>幕后默默奉献</b>的人，看着自己所爱的一切被人们所爱，这便是最大的幸福了
-            </p>
-        </div>
-        <div class="pg2main ct">
-            <div class="card-title">
-                <h2>近期文章</h2>
-                <span id="p-message"></span>
-            </div>
-            <div class="list" id="recentposts">
-                <div class="loading" id="p-load">加载中...</div>
-                <!-- <div class="item"><a class="" href="https://blog.yfun.top">YFun's Blog</a></div> -->
-            </div>
-        </div>
-        <div class="pg2main ct">
-            <div class="card-title">
-                <h2>Bangumi</h2>
-                <span id="bangumi-message"></span>
-            </div>
-            <div class="list" id="recentbangumi">
-                <div class="loading" id="bangumi-load">加载中...</div>
-                <!-- <div class="item"><a class="" href="https://blog.yfun.top">YFun's Blog</a></div> -->
-            </div>
-        </div>
-        <div class="pg2main ct">
-            <div class="card-title">
-                <h2>捕捉方式</h2>
-                <div class="contact">
-                    <a href="https://blog.tnxg.top/" target="_blank">
-                        <i class="ri-home-3-line"><span>Blog</span></i>
-                    </a>
-                    <a href="https://space.bilibili.com/175424674" target="_blank">
-                        <i class="ri-bilibili-fill"><span>哔哩哔哩</span></i>
-                    </a>
-                    <a href="https://t.me/tianxiang_tnxg" target="_blank">
-                        <i class="ri-telegram-line"><span>Telegram</span></i>
-                    </a>
-                    <a href="https://twitter.com/tianxiang_tnxg" target="_blank">
-                        <i class="ri-twitter-line"><span>Twitter</span></i>
-                    </a>
-                    <a href="https://github.com/TNXG" target="_blank">
-                        <i class="ri-github-fill"><span>GitHub</span></i>
-                    </a>
-                    <a href="mailto:tnxg@outlook.jp" target="_blank">
-                        <i class="ri-mail-line"><span>E-Mail</span></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="pg2main ct">
-            <div class="card-title">
-                <h2>投喂我</h2>
-                <div class="donate">
-                    <a href="https://blog.tnxg.top/donate/" target="_blank">跳转到博客捐赠页面</a><br>
-                    <img src="https://assets.tnxg.whitenuo.cn/images/donate/auto-qrcode.png" alt="捐赠二维码" width="50%" />
-                </div>
-            </div>
-        </div>
-        <!-- 页脚 -->
-        <div class="footer">
-            <p>© 2019 - 2023  天翔TNXG</p>
-            <p>THEME MADE BY <a target="_blank" rel="noopener" href="https://yfun.top/">YFun (@oCoke)</a></p>
-            <p><a href="https://icp.gov.moe/?keyword=20210412" target="_blank">萌ICP备20210412号</a></p><br>
-        </div>
-    </div>
-    <script src="/assets/js/master.js"></script>
-    <script>
-        var content = "TiaNXianG丨天翔TNXG";
-        let randomNum = Math.round(Math.random());
-        window.addEventListener("resize", () => {
-            render(content);
-        });
-        render(content);
-    </script>
-</body>
-
+    <title>天翔TNXG HomePage</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
