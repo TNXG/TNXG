@@ -59,13 +59,9 @@
   <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
   <img alt="Flask" src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white" />
   <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-</p>
-
-**DevOps**
-
-<p>
   <img alt="Nitro" src="https://img.shields.io/badge/-Nitro-FF4F00?style=flat-square&logo=nitro&logoColor=white" />
 </p>
+
 
 **Environment**
 
