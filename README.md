@@ -10,12 +10,14 @@
 </a>
 
 > 恭喜你发现了一个新的废物  
-> 欢迎访问我的空间站：<a href="https://tnxgmoe.com" target="_blank">天翔TNXGの空间站</a>  
-> 当然也欢迎访问我的自留地：<a href="https://tnxg.top" target="_blank">天翔TNXGの自留地</a>  
-> 这里会存一些在初学知识下写的简单无用的代码  
-> 我非常的菜，已经菜的不能再菜了
 
-<img align="right" style="float: right;width: 250px;margin: 0 0 20px 20px;border: 1px solid #d9d9d9;border-radius: 4px;" alt="Soyorin" src="/banner/MyGo!!!!!_Kaisou_Soyo.nst.png" />
+> 欢迎访问我的空间站：<a href="https://tnxgmoe.com" target="_blank">天翔TNXGの空间站</a>  
+
+> 当然也欢迎访问我的自留地：<a href="https://tnxg.top" target="_blank">天翔TNXGの自留地</a> 
+
+> 这里会存一些在初学知识下写的简单无用的代码 
+
+> 我非常的菜，已经菜的不能再菜了
 
 ----
 
@@ -49,6 +51,8 @@
   <img alt="TailwindCSS" src="https://img.shields.io/badge/-tailwindcss-50B3D0?style=flat-square&logo=tailwindcss&logoColor=white" />
   <img alt="ESLint" src="https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white" />
 </p>
+
+<img align="right" style="float: right; width: 250px;margin: 0 0 20px 20px;border: 1px solid #d9d9d9;border-radius: 4px;" alt="Soyorin" src="/banner/MyGo!!!!!_Kaisou_Soyo.nst.png" />
 
 **Backend Developer**
 
