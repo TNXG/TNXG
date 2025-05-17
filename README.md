@@ -30,13 +30,9 @@
 </p>
 
 <p>
-  <!-- JavaScript框架 -->
+  <!-- 前端框架 -->
   <img alt="React" src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img alt="Vue 3" src="https://img.shields.io/badge/-Vue-5BA17F?style=flat-square&logo=vue.js&logoColor=white" />
-</p>
-
-<p>
-  <!-- SSR框架 -->
   <img alt="Next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
   <img alt="Nuxt.js" src="https://img.shields.io/badge/-Nuxt.js-00DC82?style=flat-square&logo=nuxt&logoColor=white" />
   <img alt="Astro" src="https://img.shields.io/badge/-Astro-FF5D01?style=flat-square&logo=astro&logoColor=white" />
@@ -44,7 +40,6 @@
 
 <p>
   <!-- 工具 -->
-  <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
   <img alt="pnpm" src="https://img.shields.io/badge/-pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white" />
   <img alt="TailwindCSS" src="https://img.shields.io/badge/-tailwindcss-50B3D0?style=flat-square&logo=tailwindcss&logoColor=white" />
   <img alt="ESLint" src="https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white" />
@@ -54,22 +49,30 @@
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img alt="Golang" src="https://img.shields.io/badge/-GO-00ADD8?style=flat-square&logo=go&logoColor=white" />
   <img alt="NodeJS" src="https://img.shields.io/badge/-NodeJS-43853d?style=flat-square&logo=Node.js&logoColor=white" />
   <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
-  <img alt="Flask" src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white" />
   <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img alt="Nitro" src="https://img.shields.io/badge/-Nitro-FF4F00?style=flat-square&logo=nitro&logoColor=white" />
+</p>
+
+**Software Developer**
+
+<p>
+  <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img alt="Rust" src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=Rust&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img alt="Tauri" src="https://img.shields.io/badge/-Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white" />
 </p>
 
 
 **Environment**
 
 <p>
+  <img alt="MacOS" src="https://img.shields.io/badge/MacOS-Sequoia-000000?style=flat-square&logo=MacOS&logoColor=white" />
   <img alt="Windows11" src="https://img.shields.io/badge/Windows-11-0078D6?style=flat-square&logo=windows" />
   <img alt="ArchLinux" src="https://img.shields.io/badge/-ArchLinux-1793D1?style=flat-square&logo=archlinux&logoColor=white" />
+  <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
   <img alt="vscode" src="https://img.shields.io/badge/Visual%20Studio%20Code-blue?style=flat-square&logo=visual-studio-code&logoColor=ffffff" />
-  <img alt="IDEA" src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=ffffff" />
 </p>
 
 **Other**
